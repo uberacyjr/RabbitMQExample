@@ -12,4 +12,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitMQExample.Infrastructure\RabbitMQExample.Infrastructure.csproj" />
+    <ProjectReference Include="..\RabbitMQExample.Model\RabbitMQExample.Model.csproj" />
+  </ItemGroup>
+
 </Project>
