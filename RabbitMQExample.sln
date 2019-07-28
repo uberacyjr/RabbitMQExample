@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample", "RabbitMQExample\RabbitMQExample.csproj", "{CA41244D-B451-4D6D-B502-48A7EA7DBB66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Console", "RabbitMQExample\RabbitMQExample.Console.csproj", "{CA41244D-B451-4D6D-B502-48A7EA7DBB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Model", "RabbitMQExample.Model\RabbitMQExample.Model.csproj", "{F31A9D98-37ED-4BD6-94EC-8FCAEB3F43B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Infrastructure", "RabbitMQExample.Infrastructure\RabbitMQExample.Infrastructure.csproj", "{74FC1E24-4631-455E-85FF-36FDDD5A6F70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Test", "RabbitMQExample.Test\RabbitMQExample.Test.csproj", "{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{CA41244D-B451-4D6D-B502-48A7EA7DBB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA41244D-B451-4D6D-B502-48A7EA7DBB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA41244D-B451-4D6D-B502-48A7EA7DBB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F31A9D98-37ED-4BD6-94EC-8FCAEB3F43B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F31A9D98-37ED-4BD6-94EC-8FCAEB3F43B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F31A9D98-37ED-4BD6-94EC-8FCAEB3F43B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F31A9D98-37ED-4BD6-94EC-8FCAEB3F43B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74FC1E24-4631-455E-85FF-36FDDD5A6F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FC1E24-4631-455E-85FF-36FDDD5A6F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FC1E24-4631-455E-85FF-36FDDD5A6F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FC1E24-4631-455E-85FF-36FDDD5A6F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
