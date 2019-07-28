@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Test", "RabbitMQExample.Test\RabbitMQExample.Test.csproj", "{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.AMQP", "RabbitMQExample.AMQP\RabbitMQExample.AMQP.csproj", "{32904948-91E4-4033-A0D3-26884909473D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C1CEF03-1DE6-4078-8191-A1A91E3D83F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32904948-91E4-4033-A0D3-26884909473D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32904948-91E4-4033-A0D3-26884909473D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32904948-91E4-4033-A0D3-26884909473D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32904948-91E4-4033-A0D3-26884909473D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
