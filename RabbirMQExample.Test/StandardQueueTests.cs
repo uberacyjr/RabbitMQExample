@@ -8,7 +8,7 @@ namespace RabbitMQExample.Test
     {
         private string QueueName = "StandardQueue_ExampleQueue";
         [Fact]
-        public void Create_Standart_Queue()
+        public void Create_Standard_Queue()
         {
             var payment1 = new Payment { AmountToPay = 10, CardNumber = "2948484", Name = "Bera" };
             var payment2 = new Payment { AmountToPay = 20, CardNumber = "8848474", Name = "João" };
