@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RabbitMQExample.AMQP\RabbitMQExample.AMQP.csproj" />
     <ProjectReference Include="..\RabbitMQExample.Infrastructure\RabbitMQExample.Infrastructure.csproj" />
     <ProjectReference Include="..\RabbitMQExample.Model\RabbitMQExample.Model.csproj" />
   </ItemGroup>

@@ -8,7 +8,15 @@
     <Folder Include="Direct Routing\" />
     <Folder Include="Publish Subscribe\" />
     <Folder Include="Worker Queue\" />
-    <Folder Include="Standard Queue\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitMQExample.Infrastructure\RabbitMQExample.Infrastructure.csproj" />
+    <ProjectReference Include="..\RabbitMQExample.Model\RabbitMQExample.Model.csproj" />
   </ItemGroup>
 
 </Project>
