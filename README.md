@@ -13,14 +13,14 @@ Exchanges take a message and then route it to one or more queues.
 Type of routing depends on the type of exchange used in different exchange rules called bindings
 
 ### RabbitMQ Exchange Bindings
-Most important attributes
-Name
+#### Most important attributes
+#### Name
 Name of the exchange
-Durability
+#### Durability
 Persisting the messages to disk
-Auto-Delete
+#### Auto-Delete
 Delete message when not needed
-Arguments
+#### Arguments
 These are message broker-dependent
 
 ### Bindings Type
