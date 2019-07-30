@@ -16,25 +16,25 @@ namespace RabbitMQExample.AMQP.Standard_Queue
 
         public void CreateStandardQueue()
         {
-            var model = RabbitMQHelper.CreateRabbitMqModel();
+            IModel model = RabbitMQHelper.CreateRabbitMqModel();
             model.QueueDeclare(QueueName, true, false, false, null);
         }
 
         public void SendMessage(Payment message)
         {
-            var model = RabbitMQHelper.CreateRabbitMqModel();
+            IModel model = RabbitMQHelper.CreateRabbitMqModel();
             model.BasicPublish("", QueueName, false, null, message.Serialize());
             Debug.WriteLine($"Payment Message Sent: {message.CardNumber}, {message.AmountToPay}");
         }
 
         public DefaultBasicConsumer Recieve()
         {
-            var model = RabbitMQHelper.CreateRabbitMqModel();
+            IModel model = RabbitMQHelper.CreateRabbitMqModel();
             var consumer = new EventingBasicConsumer(model);
-            var total = model.MessageCount(QueueName);
+            uint total = model.MessageCount(QueueName);
             consumer.Received += (ch, ea) =>
             {
-                var body = ea.Body.DeSerialize(typeof(Payment));
+                object body = ea.Body.DeSerialize(typeof(Payment));
                 // ... process the message
                 model.BasicAck(ea.DeliveryTag, false);
             };

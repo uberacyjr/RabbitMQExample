@@ -65,6 +65,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StandardQueueTests.cs" />
+    <Compile Include="WorkerQueueTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -76,6 +77,10 @@
     <ProjectReference Include="..\RabbitMQExample.AMQP\RabbitMQExample.AMQP.csproj">
       <Project>{32904948-91E4-4033-A0D3-26884909473D}</Project>
       <Name>RabbitMQExample.AMQP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RabbitMQExample.Infrastructure\RabbitMQExample.Infrastructure.csproj">
+      <Project>{74FC1E24-4631-455E-85FF-36FDDD5A6F70}</Project>
+      <Name>RabbitMQExample.Infrastructure</Name>
     </ProjectReference>
     <ProjectReference Include="..\RabbitMQExample.Model\RabbitMQExample.Model.csproj">
       <Project>{F31A9D98-37ED-4BD6-94EC-8FCAEB3F43B7}</Project>

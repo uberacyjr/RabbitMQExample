@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29021.104
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQExample.Console", "RabbitMQExample\RabbitMQExample.Console.csproj", "{CA41244D-B451-4D6D-B502-48A7EA7DBB66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQExample.ConsoleWorker0", "RabbitMQExample\RabbitMQExample.ConsoleWorker0.csproj", "{CA41244D-B451-4D6D-B502-48A7EA7DBB66}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQExample.Model", "RabbitMQExample.Model\RabbitMQExample.Model.csproj", "{F31A9D98-37ED-4BD6-94EC-8FCAEB3F43B7}"
 EndProject
@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQExample.Infrastruct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQExample.AMQP", "RabbitMQExample.AMQP\RabbitMQExample.AMQP.csproj", "{32904948-91E4-4033-A0D3-26884909473D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbirMQExample.Test", "RabbirMQExample.Test\RabbirMQExample.Test.csproj", "{11F0D241-A36C-4545-B7BB-556F2BCD07A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.Test", "RabbirMQExample.Test\RabbitMQExample.Test.csproj", "{11F0D241-A36C-4545-B7BB-556F2BCD07A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQExample.ConsoleWorker1", "RabbitMQExample.Worker1\RabbitMQExample.ConsoleWorker1.csproj", "{E5DB2AE9-3BD9-4BA6-9D3B-99F6BE33E808}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{11F0D241-A36C-4545-B7BB-556F2BCD07A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F0D241-A36C-4545-B7BB-556F2BCD07A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F0D241-A36C-4545-B7BB-556F2BCD07A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5DB2AE9-3BD9-4BA6-9D3B-99F6BE33E808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5DB2AE9-3BD9-4BA6-9D3B-99F6BE33E808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5DB2AE9-3BD9-4BA6-9D3B-99F6BE33E808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5DB2AE9-3BD9-4BA6-9D3B-99F6BE33E808}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

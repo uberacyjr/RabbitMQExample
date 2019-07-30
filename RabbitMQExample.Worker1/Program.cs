@@ -1,7 +1,7 @@
 ﻿using System;
 using RabbitMQExample.AMQP.Worker_Queue;
 
-namespace RabbitMQExample.ConsoleWorker0
+namespace RabbitMQExample.ConsoleWorker1
 {
     class Program
     {

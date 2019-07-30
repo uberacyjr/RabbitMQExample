@@ -1,19 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="Direct Routing\" />
-    <Folder Include="Publish Subscribe\" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\RabbitMQExample.AMQP\RabbitMQExample.AMQP.csproj" />
     <ProjectReference Include="..\RabbitMQExample.Infrastructure\RabbitMQExample.Infrastructure.csproj" />
     <ProjectReference Include="..\RabbitMQExample.Model\RabbitMQExample.Model.csproj" />
   </ItemGroup>
