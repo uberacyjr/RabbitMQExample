@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Direct Routing\" />
-    <Folder Include="Publish Subscribe\" />
   </ItemGroup>
 
   <ItemGroup>
